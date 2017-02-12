@@ -1,0 +1,14 @@
+---
+
+source_device: en0
+target_device: en7
+
+targets:
+  - address: 10.0.0.8
+    matches:
+      - "google.com"
+      - "*.google.com"
+  - address: 10.0.0.7
+    matches:
+      - "*"
+
